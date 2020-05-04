@@ -27,6 +27,17 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 * Detección de manos : **Yolov3**
 * Detección de mascarillas : **Yolov3**
 
+## Software & librerias utilizadas
+
+
+
+
+## Datasets
+
+
+
+
+
 
 ## Resultados
 
