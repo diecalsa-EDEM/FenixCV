@@ -1,41 +1,46 @@
-# feniX - Computer Vision
+# Data Project 4: FENIX APP - Departamento de Algoritmos de Imagen
 
-## Guide how to use github
+Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
-### 1. Clone github repository
+Nuestro principal cometido en el desarrollo de los algoritmos de imagen era basarnos en modelos de detección de objetos ya existentes, que han funcionado de manera efectiva para la detección de caras y detección de manos y fusionarlos para que puedan funcionar juntos y cumplir con nuestros dos casos de uso principales:
+ 
+**1. Evitar que los usuari@s se toquen la cara** (emitir un aviso en forma de sonido/ contador en el momento que esta situación se de).
+ 
+**2. Recordar a los usuario que se pongan la mascarilla y que se la pongan de forma correcta** (Emitir un aviso recordando al usuario que no lleva puesta la mascarilla / alertarle de que la lleva puesta de forma incorrecta, no cubriendo las zonas delicadas (nariz y boca) que la mascarilla está destinada a proteger.
+ 
+Este repo contiene los diferentes modelos que hemos desarrollado para cumplir con los siguientes cometidos que nos habían sido encargados:
 
-0. Check if git is installed on computer: `git --version`.
-1. Open a terminal (maxOS) / command line prompt.
-2. Go to the directory where we want to allocate the repository.
-3. Insert following lines: `git clone https://github.com/diecalsa-EDEM/FenixCV.git`.
+* Implementar un modelo que fuera capaz de **detectar caras**
+ 
+* Implementar un modelo que fuera capaz de **detectar manos**
+ 
+* Combinar ambos modelos para **identificar cuando una persona se toca la cara**
+ 
+* Implementar / crear un modelo que fuera capaz de **identificar si una persona lleva o no una mascarilla puesta**
 
-If there's no error, now you have cloned the repository to your local directory.
+## Modelos Utilizados
 
-### 2. Create a new branch to work on
+Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
-If you are going to work on a new feature, you have to create a new branch in order to make changes in a safe way.
+* Detección de caras : **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
+* Detección de manos : **Yolov3**
+* Detección de mascarillas : **Yolov3**
 
-0. Open a terminal and go to the repository's directory (local): i.e. `cd Desktop/EDEM_DIEGO/02_CURSO/00_REPOSITORIOS/FenixCV/`
-1. First fetch the remote branches: `git fetch origin`.
-2. Create the new branch: `git checkout -b <branch_name>`
-3. Push your branch to the remote directory: `git push -u origin <branch_name>`.
 
-By doing that way we are creating a new branch where we are going to develop a new feature in a safe way and we are sharing it with other collaborators.
+## Resultados
 
-### 3. Working on a new feature
+A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
 
-Once we have created the new branch, we can start working on the new feature.
+### Detección de caras
 
-0. Open a terminal and go to the repository's directory (local): i.e. `cd Desktop/EDEM_DIEGO/02_CURSO/00_REPOSITORIOS/FenixCV/`
-1. Check that we are on the correct branch: `git branch`. All the available branches will appear. The current branch is marked with an `*`. If we are not on the correct branch, then: `git checkout <branch_name>`.
-2. Get the last version of the current branch: `git pull`.
-3. Now stark making changes on the code.
-4. Once you have something to "save", commit the changes: 
-    - `git status` will show the changes we have made.
-    - `git add .`
-    - `git commit -m "<commit comment>"`.
-    - `git push`.
 
-### 4. Merging a branch to master
 
-If we are done with the new feature we have created and the new version is stable, it's time to merge the branch with the master branch. This will be done by the github manager.
+### Detección de manos
+
+
+
+### Ambos detectores combinados
+
+
+
+### Detección de mascarillas
