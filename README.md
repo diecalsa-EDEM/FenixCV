@@ -1,4 +1,5 @@
-# Data Project 4: FENIX APP - Departamento de Algoritmos de Imagen
+# Data Project 4: FENIX APP 
+## Departamento de Algoritmos de Imagen
 
 Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
