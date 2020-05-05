@@ -29,11 +29,11 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 ## Software & librerias utilizadas
 
-* LabelImg : Software de etiquetado de Imagenes
-* Open CV : Biblioteca de Visión Artificial
-* Tensor Flow : Biblioteca de Machine Learning
-* Keras : Biblioteca de Redes Neuronales
-* Dlib : Biblioteca de algortimos de Machine Leearning
+* **LabelImg** : Software de etiquetado de Imagenes
+* **Open CV** : Biblioteca de Visión Artificial
+* **Tensor Flow** : Biblioteca de Machine Learning
+* **Keras** : Biblioteca de Redes Neuronales
+* **Dlib** : Biblioteca de algortimos de Machine Leearning
 
 
 ## Datasets
