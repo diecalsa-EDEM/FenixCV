@@ -23,20 +23,37 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
-* Detección de caras : **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
+* Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
 * Detección de manos : **Yolov3**
 * Detección de mascarillas : **Yolov3**
 
 ## Software & librerias utilizadas
 
-
+* LabelImg : Software de etiquetado de Imagenes
+* Open CV : Biblioteca de Visión Artificial
+* Tensor Flow : Biblioteca de Machine Learning
+* Keras : Biblioteca de Redes Neuronales
+* Dlib : Biblioteca de algortimos de Machine Leearning
 
 
 ## Datasets
 
+Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets públicos y otros propios,generados para las necesidades especificas de nuestros casos de uso:
 
+### Lista de Open Datasets
 
+* COCOS Dataset: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
+* Ego Hand Dataset: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
+* OID Dataset : Dataset con 500 clases de objetos diferentes.
+* Medical Mask Dataset : Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
 
+### Datasets Propios
+
+Para complementar el entrenamiento de los modelos desarrollados y entrenados con los datasets públicos ya mencionados, generamos con fotos propias de los miembros del equipo y con colaboración de los compañeros de EDEM otros datasets con fotos mas enfocadas a los casos de uso que quiere detectar nuestros algoritmos de imagenconn el fin de mejorar la precisión y rapidez de nuestros modelos:
+
+* Fotos de personas tocandose la cara
+* Fotos de personas con mascarillas
+* Fotos de manos con perfiles y angulos menos comunes
 
 
 ## Resultados
