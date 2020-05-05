@@ -42,10 +42,10 @@ Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets p
 
 ### Lista de Open Datasets
 
-* COCOS Dataset: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
-* Ego Hand Dataset: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
-* OID Dataset : Dataset con 500 clases de objetos diferentes.
-* Medical Mask Dataset : Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
+* **COCOS Dataset**: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
+* **Ego Hand Dataset**: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
+* **OID Dataset** : Dataset con 500 clases de objetos diferentes.
+* **Medical Mask Dataset**: Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
 
 ### Datasets Propios
 
@@ -62,9 +62,14 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Detección de caras
 
+![image](https://drive.google.com/uc?export=view&id=1-JRvBSVsyIIiurkOeqT2v5yhYteRkByL)
+
 
 
 ### Detección de manos
+
+
+
 
 
 
