@@ -41,12 +41,12 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 ## Software & librerias utilizadas <a name="software"></a>
 
-* **LabelImg** : Software de etiquetado de Imagenes
-* **Open CV** : Biblioteca de Visión Artificial
+* **LabelImg** : Software de etiquetado de Imagenes [[link](https://github.com/tzutalin/labelImg)]
+* **OpenCV** : Biblioteca de Visión Artificial [[link](https://github.com/opencv/opencv)]
 * **Tensor Flow** : Biblioteca de Machine Learning
 * **Keras** : Biblioteca de Redes Neuronales
 * **Dlib** : Biblioteca de algortimos de Machine Leearning
-* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
+* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO [[link](https://github.com/AlexeyAB/darknet)]
 
 
 ## Datasets <a name="datasets"></a>
@@ -73,7 +73,7 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 
 ### Accuracy 
 
-| First Header  |    DATASET    |       mAP     |       FPS     | 
+| Model         |    DATASET    |       mAP     |       FPS     | 
 | ------------- | ------------- | ------------- | ------------- |
 | RetinaNet     |    EGOHAND    |      91%      |      0.25     |
 | YOLOv3        |    EGOHAND    |      90%      |      5.00     |
