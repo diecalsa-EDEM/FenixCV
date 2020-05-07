@@ -63,7 +63,7 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Don't touch your face!
 
-[![](https://github.com/diecalsa-EDEM/FenixCV/tree/facialDetection/src/DontTouchYourFace.gif)]
+[![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/DontTouchYourFace.gif)]
 
 
 ### Detección de caras
