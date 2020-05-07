@@ -63,7 +63,7 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Don't touch your face!
 
-<video src="./src/Donttouchyourface.mp4" width="320" height="200" controls preload></video>
+[![](http://img.youtube.com/vi/AMuKj9TWsSM/0.jpg)](http://www.youtube.com/watch?v=AMuKj9TWsSM "DontTouchYourFace")
 
 
 ### Detección de caras
