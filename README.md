@@ -90,4 +90,4 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Detección de mascarillas
 
-![image](https://drive.google.com/uc?export=view&id=1B4PV7oHRkyi3Zx08M68p81R7-Ph9Nz5H)
+[![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)]
