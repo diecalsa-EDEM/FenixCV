@@ -41,7 +41,7 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
     - **RetinaNet** ([RetinaNet](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_Retinanet_Salim.ipynb))
 
-* Detección de mascarillas : **Yolov3** ([yolov3 notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_YOLOv3.ipynb)
+* Detección de mascarillas : **Yolov3** ([yolov3 notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_YOLOv3.ipynb))
 
 ## Software & librerias utilizadas <a name="software"></a>
 
