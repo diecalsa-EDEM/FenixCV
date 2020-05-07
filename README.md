@@ -36,7 +36,7 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
 * Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
-* Detección de manos : [Yolov3](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing)
+* Detección de manos : **Yolov3** [yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing) [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4)
 * Detección de mascarillas : **Yolov3**
 
 ## Software & librerias utilizadas <a name="software"></a>
