@@ -1,4 +1,16 @@
 # Data Project 4: FENIX APP 
+
+## Tabla de contenido
+
+1. [Departamento de Algoritmos de Imagen](#departamento)
+2. [Modelos Utilizados](#modelos)
+3. [Software & librerias utilizadas](#software)
+4. [Datasets](#datasets)
+    4.1. [Lista de Open Datasets](#opendata)
+    4.2. [Datasets Propios](#customdata)
+5. [Resultados](#resultados)
+
+
 ## Departamento de Algoritmos de Imagen
 
 Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
@@ -52,7 +64,7 @@ Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets p
 
 Para complementar el entrenamiento de los modelos desarrollados y entrenados con los datasets públicos ya mencionados, generamos con fotos propias de los miembros del equipo y con colaboración de los compañeros de EDEM otros datasets con fotos mas enfocadas a los casos de uso que quiere detectar nuestros algoritmos de imagenconn el fin de mejorar la precisión y rapidez de nuestros modelos:
 
-* Fotos de personas tocandose la cara
+* Fotos de personas tocándose la cara
 * Fotos de personas con mascarillas
 * Fotos de manos con perfiles y angulos menos comunes
 
