@@ -6,12 +6,12 @@
 2. [Modelos Utilizados](#modelos)
 3. [Software & librerias utilizadas](#software)
 4. [Datasets](#datasets)
-    4.1. [Lista de Open Datasets](#opendata)
-    4.2. [Datasets Propios](#customdata)
+    1. [Lista de Open Datasets](#opendata)
+    2. [Datasets Propios](#customdata)
 5. [Resultados](#resultados)
 
 
-## Departamento de Algoritmos de Imagen
+## Departamento de Algoritmos de Imagen <a name="departamento"></a>
 
 Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
@@ -31,7 +31,7 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
  
 * Implementar / crear un modelo que fuera capaz de **identificar si una persona lleva o no una mascarilla puesta**
 
-## Modelos Utilizados
+## Modelos Utilizados <a name="modelos"></a>
 
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
@@ -39,7 +39,7 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 * Detección de manos : **Yolov3**
 * Detección de mascarillas : **Yolov3**
 
-## Software & librerias utilizadas
+## Software & librerias utilizadas <a name="software"></a>
 
 * **LabelImg** : Software de etiquetado de Imagenes
 * **Open CV** : Biblioteca de Visión Artificial
@@ -49,18 +49,18 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 * **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
 
 
-## Datasets
+## Datasets <a name="datasets"></a>
 
 Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets públicos y otros propios,generados para las necesidades especificas de nuestros casos de uso:
 
-### Lista de Open Datasets
+### Lista de Open Datasets <a name="opendata"></a>
 
 * **COCOS Dataset**: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
 * **Ego Hand Dataset**: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
 * **OID Dataset** : Dataset con 500 clases de objetos diferentes.
 * **Medical Mask Dataset**: Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
 
-### Datasets Propios
+### Datasets Propios <a name="customdata"></a>
 
 Para complementar el entrenamiento de los modelos desarrollados y entrenados con los datasets públicos ya mencionados, generamos con fotos propias de los miembros del equipo y con colaboración de los compañeros de EDEM otros datasets con fotos mas enfocadas a los casos de uso que quiere detectar nuestros algoritmos de imagenconn el fin de mejorar la precisión y rapidez de nuestros modelos:
 
@@ -69,7 +69,7 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 * Fotos de manos con perfiles y angulos menos comunes
 
 
-## Resultados
+## Resultados <a name="resultados"></a>
 
 A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
 
