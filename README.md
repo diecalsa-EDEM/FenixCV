@@ -37,10 +37,11 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 * Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
 * Detección de manos : 
-    - **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4))
+    - **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4),[yolov3 notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_YOLOv3.ipynb))
 
     - **RetinaNet** ([RetinaNet](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_Retinanet_Salim.ipynb))
-* Detección de mascarillas : **Yolov3**
+
+* Detección de mascarillas : **Yolov3** ([yolov3 notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_YOLOv3.ipynb)
 
 ## Software & librerias utilizadas <a name="software"></a>
 
