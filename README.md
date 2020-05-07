@@ -108,7 +108,7 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 
 
-### Authors
+## Authors
 - Alberto Bort
 - Diego Calvete
 - Luis Araujo
