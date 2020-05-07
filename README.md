@@ -34,6 +34,7 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 * **Tensor Flow** : Biblioteca de Machine Learning
 * **Keras** : Biblioteca de Redes Neuronales
 * **Dlib** : Biblioteca de algortimos de Machine Leearning
+* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
 
 
 ## Datasets
@@ -59,6 +60,11 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 ## Resultados
 
 A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
+
+### Don't touch your face!
+
+![image](https://youtu.be/AMuKj9TWsSM)
+
 
 ### Detección de caras
 
