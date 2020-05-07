@@ -36,7 +36,7 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
 * Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
-* Detección de manos : **Yolov3**
+* Detección de manos : [Yolov3](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing)
 * Detección de mascarillas : **Yolov3**
 
 ## Software & librerias utilizadas <a name="software"></a>
@@ -55,7 +55,7 @@ Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets p
 
 ### Lista de Open Datasets <a name="opendata"></a>
 
-* **COCOS Dataset**: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
+* **COCO Dataset**: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
 * **Ego Hand Dataset**: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
 * **OID Dataset** : Dataset con 500 clases de objetos diferentes.
 * **Medical Mask Dataset**: Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
