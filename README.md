@@ -73,11 +73,6 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 
 A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
 
-### Don't touch your face!
-
-![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/DontTouchYourFace.gif)
-
-
 ### Detección de caras
 
 ![image](https://drive.google.com/uc?export=view&id=1-JRvBSVsyIIiurkOeqT2v5yhYteRkByL)
@@ -86,6 +81,11 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 ### Detección de manos
 
 ![image](https://drive.google.com/uc?export=view&id=1vptxGpEuBaQKWeaYOiHYOIWhVv0-gpFI)
+
+
+### Don't touch your face!
+
+![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/DontTouchYourFace.gif)
 
 
 ### Detección de mascarillas
