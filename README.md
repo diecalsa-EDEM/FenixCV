@@ -36,8 +36,8 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
 * Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
-* Detección de manos : **Yolov3** ([yolov3_hand_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_hand_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4))
-* Detección de mascarillas : **Yolov3** ([yolov3_mask_custom.cfg](https://drive.google.com/open?id=1CK-jXpu0Op8wOYJchklCD4I2YuLT91iG), [yolov3_mask_custom.weights](https://drive.google.com/open?id=1i7vTsoPTx3UUIefgmco5MRHDgg6Nq9hI))
+* Detección de manos : **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4))
+* Detección de mascarillas : **Yolov3**
 
 ## Software & librerias utilizadas <a name="software"></a>
 
@@ -70,6 +70,14 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 
 
 ## Resultados <a name="resultados"></a>
+
+### Accuracy 
+
+| First Header  |    DATASET    |       mAP     |       FPS     | 
+| ------------- | ------------- | ------------- | ------------- |
+| RetinaNet     |    EGOHAND    |      91%      |      0.25     |
+| YOLOv3        |    EGOHAND    |      90%      |      5.00     |
+| Tiny YOLO     |    EGOHAND    |      70%      |      15.00    |
 
 A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
 
