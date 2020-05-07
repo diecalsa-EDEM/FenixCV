@@ -77,6 +77,7 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
 
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/face-salim.jpeg)
 
 ### Detección de manos
 
