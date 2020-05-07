@@ -75,12 +75,12 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Detección de caras
 
-![image]()
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
 
 
 ### Detección de manos
 
-![image]()
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/mano.jpeg)
 
 
 ### Don't touch your face!
