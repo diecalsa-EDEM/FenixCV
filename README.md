@@ -1,41 +1,94 @@
-# feniX - Computer Vision
+# Data Project 4: FENIX APP 
 
-## Guide how to use github
+## Tabla de contenido
 
-### 1. Clone github repository
+1. [Departamento de Algoritmos de Imagen](#departamento)
+2. [Modelos Utilizados](#modelos)
+3. [Software & librerias utilizadas](#software)
+4. [Datasets](#datasets)
+    1. [Lista de Open Datasets](#opendata)
+    2. [Datasets Propios](#customdata)
+5. [Resultados](#resultados)
 
-0. Check if git is installed on computer: `git --version`.
-1. Open a terminal (maxOS) / command line prompt.
-2. Go to the directory where we want to allocate the repository.
-3. Insert following lines: `git clone https://github.com/diecalsa-EDEM/FenixCV.git`.
 
-If there's no error, now you have cloned the repository to your local directory.
+## Departamento de Algoritmos de Imagen <a name="departamento"></a>
 
-### 2. Create a new branch to work on
+Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
-If you are going to work on a new feature, you have to create a new branch in order to make changes in a safe way.
+Nuestro principal cometido en el desarrollo de los algoritmos de imagen era basarnos en modelos de detección de objetos ya existentes, que han funcionado de manera efectiva para la detección de caras y detección de manos y fusionarlos para que puedan funcionar juntos y cumplir con nuestros dos casos de uso principales:
+ 
+**1. Evitar que los usuari@s se toquen la cara** (emitir un aviso en forma de sonido/ contador en el momento que esta situación se de).
+ 
+**2. Recordar a los usuario que se pongan la mascarilla y que se la pongan de forma correcta** (Emitir un aviso recordando al usuario que no lleva puesta la mascarilla / alertarle de que la lleva puesta de forma incorrecta, no cubriendo las zonas delicadas (nariz y boca) que la mascarilla está destinada a proteger.
+ 
+Este repo contiene los diferentes modelos que hemos desarrollado para cumplir con los siguientes cometidos que nos habían sido encargados:
 
-0. Open a terminal and go to the repository's directory (local): i.e. `cd Desktop/EDEM_DIEGO/02_CURSO/00_REPOSITORIOS/FenixCV/`
-1. First fetch the remote branches: `git fetch origin`.
-2. Create the new branch: `git checkout -b <branch_name>`
-3. Push your branch to the remote directory: `git push -u origin <branch_name>`.
+* Implementar un modelo que fuera capaz de **detectar caras**
+ 
+* Implementar un modelo que fuera capaz de **detectar manos**
+ 
+* Combinar ambos modelos para **identificar cuando una persona se toca la cara**
+ 
+* Implementar / crear un modelo que fuera capaz de **identificar si una persona lleva o no una mascarilla puesta**
 
-By doing that way we are creating a new branch where we are going to develop a new feature in a safe way and we are sharing it with other collaborators.
+## Modelos Utilizados <a name="modelos"></a>
 
-### 3. Working on a new feature
+Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
-Once we have created the new branch, we can start working on the new feature.
+* Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
+* Detección de manos : **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4))
+* Detección de mascarillas : **Yolov3**
 
-0. Open a terminal and go to the repository's directory (local): i.e. `cd Desktop/EDEM_DIEGO/02_CURSO/00_REPOSITORIOS/FenixCV/`
-1. Check that we are on the correct branch: `git branch`. All the available branches will appear. The current branch is marked with an `*`. If we are not on the correct branch, then: `git checkout <branch_name>`.
-2. Get the last version of the current branch: `git pull`.
-3. Now stark making changes on the code.
-4. Once you have something to "save", commit the changes: 
-    - `git status` will show the changes we have made.
-    - `git add .`
-    - `git commit -m "<commit comment>"`.
-    - `git push`.
+## Software & librerias utilizadas <a name="software"></a>
 
-### 4. Merging a branch to master
+* **LabelImg** : Software de etiquetado de Imagenes
+* **Open CV** : Biblioteca de Visión Artificial
+* **Tensor Flow** : Biblioteca de Machine Learning
+* **Keras** : Biblioteca de Redes Neuronales
+* **Dlib** : Biblioteca de algortimos de Machine Leearning
+* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
 
-If we are done with the new feature we have created and the new version is stable, it's time to merge the branch with the master branch. This will be done by the github manager.
+
+## Datasets <a name="datasets"></a>
+
+Durante el desarrollo del proyecto hemos utilizado una combinacion de datasets públicos y otros propios,generados para las necesidades especificas de nuestros casos de uso:
+
+### Lista de Open Datasets <a name="opendata"></a>
+
+* **COCO Dataset**: Dataset abierto que contiene más de 220k imágenes etiquetadas y 1.5 millón de clases de objetos diferentes.
+* **Ego Hand Dataset**: Dataset creado por la Universidad de Indiana que contiene 15,083 manos etiquetadas y 48 videos diferentes de manos.
+* **OID Dataset** : Dataset con 500 clases de objetos diferentes.
+* **Medical Mask Dataset**: Dataset creado para una competición de Kaggle con 682 imagenes de gente portando mascarillas médicas.
+
+### Datasets Propios <a name="customdata"></a>
+
+Para complementar el entrenamiento de los modelos desarrollados y entrenados con los datasets públicos ya mencionados, generamos con fotos propias de los miembros del equipo y con colaboración de los compañeros de EDEM otros datasets con fotos mas enfocadas a los casos de uso que quiere detectar nuestros algoritmos de imagenconn el fin de mejorar la precisión y rapidez de nuestros modelos:
+
+* Fotos de personas tocándose la cara
+* Fotos de personas con mascarillas
+* Fotos de manos con perfiles y angulos menos comunes
+
+
+## Resultados <a name="resultados"></a>
+
+A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
+
+### Detección de caras
+
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
+
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/face-salim.jpeg)
+
+### Detección de manos
+
+![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/mano.jpeg)
+
+
+### Don't touch your face!
+
+![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/DontTouchYourFace.gif)
+
+
+### Detección de mascarillas
+
+![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)
