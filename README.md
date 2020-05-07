@@ -75,12 +75,12 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 
 ### Detección de caras
 
-![image](https://drive.google.com/uc?export=view&id=1-JRvBSVsyIIiurkOeqT2v5yhYteRkByL)
+![image]()
 
 
 ### Detección de manos
 
-![image](https://drive.google.com/uc?export=view&id=1vptxGpEuBaQKWeaYOiHYOIWhVv0-gpFI)
+![image]()
 
 
 ### Don't touch your face!
