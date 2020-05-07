@@ -47,13 +47,12 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 ## Software & librerias utilizadas <a name="software"></a>
 
-* **LabelImg** : Software de etiquetado de Imagenes
-* **Open CV** : Biblioteca de Visión Artificial
+* [LabelImg](https://github.com/tzutalin/labelImg) : Software de etiquetado de Imagenes [[link]]
+* [OpenCV](https://github.com/opencv/opencv) : Biblioteca de Visión Artificial
 * **Tensor Flow** : Biblioteca de Machine Learning
 * **Keras** : Biblioteca de Redes Neuronales
 * **Dlib** : Biblioteca de algortimos de Machine Leearning
-* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
-
+* [Darknet](https://github.com/AlexeyAB/darknet): Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO 
 
 ## Datasets <a name="datasets"></a>
 
