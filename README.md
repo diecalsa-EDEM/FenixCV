@@ -36,18 +36,23 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
 * Detección de caras : Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
-* Detección de manos : **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing), [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4))
-* Detección de mascarillas : **Yolov3**
+* Detección de manos : 
+    - **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/file/d/1-a38MrTHHTl9yyyZEwBdl4la8PEYFsXG/view?usp=sharing),  [yolov3_custom.weights](https://drive.google.com/open?id=1pg6S0rmhrcFV01EED9tgHnPo8yuNdxQ4), [yolov3 notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_YOLOv3.ipynb))
+
+    - **RetinaNet** ([RetinaNet_notebook](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/1.Training/Train_Retinanet_Salim.ipynb))
+
+* Detección de mascarillas : **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/open?id=1CK-jXpu0Op8wOYJchklCD4I2YuLT91iG), [yolov3_custom.weights](https://drive.google.com/open?id=1i7vTsoPTx3UUIefgmco5MRHDgg6Nq9hI), [yolov3_notebook](https://drive.google.com/open?id=1nUwsYnNTgkRei3AhK1AVCWDSHiQOBsdP))
+
+
 
 ## Software & librerias utilizadas <a name="software"></a>
 
-* **LabelImg** : Software de etiquetado de Imagenes
-* **Open CV** : Biblioteca de Visión Artificial
+* [LabelImg](https://github.com/tzutalin/labelImg) : Software de etiquetado de Imagenes [[link]]
+* [OpenCV](https://github.com/opencv/opencv) : Biblioteca de Visión Artificial
 * **Tensor Flow** : Biblioteca de Machine Learning
 * **Keras** : Biblioteca de Redes Neuronales
 * **Dlib** : Biblioteca de algortimos de Machine Leearning
-* **Darknet**: Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO
-
+* [Darknet](https://github.com/AlexeyAB/darknet): Biblioteca desarrollada para el entrenamiento, inferencia y evaluación de modelos YOLO 
 
 ## Datasets <a name="datasets"></a>
 
@@ -70,6 +75,14 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 
 
 ## Resultados <a name="resultados"></a>
+
+### Accuracy 
+
+| First Header  |    DATASET    |       mAP     |       FPS     | 
+| ------------- | ------------- | ------------- | ------------- |
+| RetinaNet     |    EGOHAND    |      91%      |      0.25     |
+| YOLOv3        |    EGOHAND    |      90%      |      5.00     |
+| Tiny YOLO     |    EGOHAND    |      70%      |      15.00    |
 
 A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
 
