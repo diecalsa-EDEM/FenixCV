@@ -105,3 +105,12 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 ### Detección de mascarillas
 
 ![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)
+
+
+
+### Authors
+- Alberto Bort
+- Diego Calvete
+- Luis Araujo
+- Miguel Ángel Aguilar
+- Salim Chikh
