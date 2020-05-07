@@ -74,7 +74,7 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 ### Accuracy 
 
 | First Header  |    DATASET    |       mAP     |       FPS     | 
-| ------------- |     :---:     |     :---:     |     :---:     |
+| ------------- | ------------- | ------------- | ------------- |
 | RetinaNet     |    EGOHAND    |      91%      |      0.25     |
 | YOLOv3        |    EGOHAND    |      90%      |      5.00     |
 | Tiny YOLO     |    EGOHAND    |      70%      |      15.00    |
