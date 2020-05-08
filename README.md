@@ -15,7 +15,7 @@
 
 Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
-Nuestro principal cometido en el desarrollo de los algoritmos de imagen era basarnos en modelos de detección de objetos ya existentes, que han funcionado de manera efectiva para la detección de caras y detección de manos y fusionarlos para que puedan funcionar juntos y cumplir con nuestros dos casos de uso principales:
+Nuestro principal cometido en el desarrollo de los algoritmos de imagen era basarnos en modelos de detección de objetos ya existentes y entrenar modelos de detección de objetos usando el transfer learning que han funcionado de manera efectiva para la detección de caras y detección de manos y fusionarlos para que puedan funcionar juntos y cumplir con nuestros dos casos de uso principales:
  
 **1. Evitar que los usuari@s se toquen la cara** (emitir un aviso en forma de sonido/ contador en el momento que esta situación se de).
  
