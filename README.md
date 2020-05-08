@@ -15,8 +15,8 @@
 
 Nuestro rol dentro del proyecto que gira en torno al Hackathon 4 y el desarrollo de la aplicación FENIX estaba encuadrado dentro del departamento de Imagen donde nos hemos encargado del desarrollo de los algoritmos de imagen que van a formar parte de la aplicación final. 
 
-Nuestro principal cometido en el desarrollo de los algoritmos de imagen era basarnos en modelos de detección de objetos ya existentes y entrenar modelos de detección de objetos usando el transfer learning que han funcionado de manera efectiva para la detección de caras y detección de manos y fusionarlos para que puedan funcionar juntos y cumplir con nuestros dos casos de uso principales:
- 
+Nuestro principal cometido en el desarrollo de los algoritmos de imagen era implementar arquitecturas basadas en redes neuronales convolucionales para la detección de objetos existentes y pre-entrenadas. De esta manera, empleando transfer learning, hemos sido capaces de entrenar un detector de manos personalizado. Una vez entrenado el modelo, el último paso fue implementar tanto el modelo de detección de manos como el de caras en la misma aplicación, para cumplir con nuestros dos casos de uso principales:
+
 **1. Evitar que los usuari@s se toquen la cara** (emitir un aviso en forma de sonido/ contador en el momento que esta situación se de).
  
 **2. Recordar a los usuario que se pongan la mascarilla y que se la pongan de forma correcta** (Emitir un aviso recordando al usuario que no lleva puesta la mascarilla / alertarle de que la lleva puesta de forma incorrecta, no cubriendo las zonas delicadas (nariz y boca) que la mascarilla está destinada a proteger.
@@ -102,9 +102,11 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 
 | First Header  |    DATASET    |       mAP     |       FPS     | 
 | ------------- | ------------- | ------------- | ------------- |
-| RetinaNet     |    EGOHAND    |      91%      |      0.25     |
-| YOLOv3        |    EGOHAND    |      90%      |      5.00     |
-| Tiny YOLO     |    EGOHAND    |      70%      |      15.00    |
+| RetinaNet     |    CUSTOM     |      64%      |      0.25     |
+| YOLOv3        |    CUSTOM     |      63%      |      5.00     |
+| Tiny YOLO     |    CUSTOM     |      33%      |      15.00    |
+
+[^NOTA:]: El dataset de validación está compuesto por 200 imágenes.
 
 ## Authors
 - Alberto Bort
