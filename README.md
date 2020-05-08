@@ -106,7 +106,7 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 | YOLOv3        |    CUSTOM     |      63%      |      5.00     |
 | Tiny YOLO     |    CUSTOM     |      33%      |      15.00    |
 
-[^NOTA:]: El dataset de validación está compuesto por 200 imágenes.
+*NOTA*: El dataset de validación está compuesto por 200 imágenes etiquetadas por el equipo de trabajo.
 
 ## Authors
 - Alberto Bort
