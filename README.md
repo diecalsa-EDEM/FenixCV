@@ -106,30 +106,6 @@ Para complementar el entrenamiento de los modelos desarrollados y entrenados con
 | YOLOv3        |    EGOHAND    |      90%      |      5.00     |
 | Tiny YOLO     |    EGOHAND    |      70%      |      15.00    |
 
-A continuación se puede comprobar los resultados de los diferentes detectores implementados al probarlo con imagenes propias.
-
-### Detección de caras
-
-![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
-
-![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/face-salim.jpeg)
-
-### Detección de manos
-
-![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/mano.jpeg)
-
-
-### Don't touch your face!
-
-![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/DontTouchYourFace.gif)
-
-
-### Detección de mascarillas
-
-![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)
-
-
-
 ## Authors
 - Alberto Bort
 - Diego Calvete
