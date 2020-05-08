@@ -36,7 +36,8 @@ Este repo contiene los diferentes modelos que hemos desarrollado para cumplir co
 Los siguientes modelos han sido implementados para cumplir la función de detección de objetos para nuestros diferentes casos de uso:
 
 * Detección de caras : 
-Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
+
+- Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
 
 
 ![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
