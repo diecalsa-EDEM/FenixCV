@@ -136,4 +136,6 @@ A continuación se puede comprobar los resultados de los diferentes detectores i
 - Luis Araujo
 - Miguel Ángel Aguilar
 - Salim Chikh
+
+
 ![image](https://github.com/diecalsa-EDEM/FenixCV/blob/master/src/fd6815fb-e35b-44ff-ae8e-2e2cbaf2d396.jpeg)
