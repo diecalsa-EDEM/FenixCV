@@ -37,7 +37,7 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 * Detección de caras : 
 
-- Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
+    - Libreria **Dlib** mediante **HOG** (Histogram Oriented Gradients + **SVM** (Support Vector Machines)
 
 
 ![image](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/cara.jpeg)
@@ -52,7 +52,9 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
     
   ![image](https://github.com/diecalsa-EDEM/FenixCV/blob/master/src/hand-salim.jpeg)
 
-* Detección de mascarillas : **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/open?id=1CK-jXpu0Op8wOYJchklCD4I2YuLT91iG), [yolov3_custom.weights](https://drive.google.com/open?id=1i7vTsoPTx3UUIefgmco5MRHDgg6Nq9hI), [yolov3_notebook](https://drive.google.com/open?id=1nUwsYnNTgkRei3AhK1AVCWDSHiQOBsdP))
+* Detección de mascarillas : 
+
+    - **Yolov3** ([yolov3_custom.cfg](https://drive.google.com/open?id=1CK-jXpu0Op8wOYJchklCD4I2YuLT91iG), [yolov3_custom.weights](https://drive.google.com/open?id=1i7vTsoPTx3UUIefgmco5MRHDgg6Nq9hI), [yolov3_notebook](https://drive.google.com/open?id=1nUwsYnNTgkRei3AhK1AVCWDSHiQOBsdP))
 
 ![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)
 
