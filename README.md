@@ -53,6 +53,8 @@ Los siguientes modelos han sido implementados para cumplir la función de detecc
 
 ![gif](https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/MaskDetection.gif)
 
+<img src="https://github.com/diecalsa-EDEM/FenixCV/blob/facialDetection/src/hand-salim.jpeg" />
+
 
 ## Software & librerias utilizadas <a name="software"></a>
 
